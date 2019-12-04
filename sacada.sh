@@ -23,8 +23,8 @@ else
 			grep "$actual" albumsxlinea | grep "$quien" > encontrarlo 
 			awk 'BEGIN {FS="file...."}; {print $2}' encontrarlo > ruta
 			imagen=$(awk 'BEGIN {FS="..s"}; {print $1}' ruta)
-			cp .cache/rhythmbox/album-art/$imagen /home/oscar/portacd.jpg
-			convert  -resize 96x96 .cache/rhythmbox/album-art/$imagen /home/oscar/miniporta.jpg
+			cp .cache/rhythmbox/album-art/$imagen ~/portacd.jpg
+			convert  -resize 96x96 .cache/rhythmbox/album-art/$imagen ~/miniporta.jpg
 		fi
 		echo $actual > .ultimo
 		echo $quien > .quien
