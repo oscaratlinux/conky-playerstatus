@@ -55,7 +55,7 @@ update_interval = 1,
 
 conky.text = [[
 
-${offset 120}${image ~/.icons/custom/glass.pngS -p 230,130}
+${offset 120}${image ~/.icons/custom/glass.png -p 230,130}
 ${voffset 10}
 
 
