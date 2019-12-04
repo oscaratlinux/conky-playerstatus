@@ -1,5 +1,5 @@
 # conky-playerstatus
-A music player status for conky
+A music player status for conky (see the screenshot)
 
 A conky configuration to show music playing.  It supports 2 options:
 - current track playing in Rhythmbox, including album art if avaliable
