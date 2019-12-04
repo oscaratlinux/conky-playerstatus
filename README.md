@@ -13,7 +13,10 @@ Requirements:
 - hexdump: to convert the rhythmbox album tdb base to ascii and search for the covers
 
 Files:
-tuner.sh - script to play a internet radio station from a list stored in a file
-actualizarbase.sh - script to convert the rhythbox tdb base to ascii (must be run the first time, then whenever you add more album covers to rhythmbox)
-sacada.sh - script to get the info from the current track playing in rhythmbox and search for the album cover
-musicplayer2.conkyrc - conky configuration file
+- tuner.sh - script to play a internet radio station from a list stored in a file
+
+- actualizarbase.sh - script to convert the rhythbox tdb base to ascii (must be run the first time, then whenever you add more album covers to rhythmbox)
+
+- sacada.sh - script to get the info from the current track playing in rhythmbox and search for the album cover
+
+- musicplayer2.conkyrc - conky configuration file
